@@ -1,0 +1,25 @@
+{
+  "name": "model-management",
+  "version": "1.0.0",
+  "description": "aplication to organize models shotings and payrates where also models can see their next works",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "env-cmd -f ./config/.env nodemon index.js",
+    "start":"env-cmd -f ./config/.env node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "env-cmd": "^10.1.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.1.1",
+    "mongoose": "^6.0.4",
+    "nodemon": "^2.0.12",
+    "sharp": "^0.29.0",
+    "validator": "^13.6.0"
+  }
+}
